@@ -2,7 +2,7 @@ import serial.tools.list_ports
 from firebase import firebase
 
 # firebase bağlantı
-myDB =firebase.FirebaseApplication("https://roomiotapp-default-rtdb.europe-west1.firebasedatabase.app/",None)
+myDB =firebase.FirebaseApplication("your_firebase_app_url",None)
 #print(myDB)
 
 # tanımlamalar
